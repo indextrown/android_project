@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- 주석 -->
+<!-- constraintlayout: UI를 상대적으로 배치 가능하게 하는 레이아웃-->
+<!--  XML 파일의 버전과 인코딩을 지정 -->
+<!-- xmlns: android" 네임스페이스를 정의하며, 안드로이드 속성을 사용할 때 이 네임스페이스를 참조 -->
+<!-- layout_width, layout_height 너비와 높이를 부모 뷰와 일치 -->
+<!-- tools:context: 레이아웃 파일이 어떤 액티비티와 연결되어 있는지 나타냄  -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,5 +22,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    -->
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
