@@ -12,6 +12,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <!-- app:layout_constraintBottom_toBottomOf="parent"
+    리사이클러뷰 하단을 부모 요소의 하단에 맞춘다 즉 리사이클러뷰가 화면 아래에 위치한다-->
 
     <!--
     <TextView
@@ -23,7 +25,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     -->
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
